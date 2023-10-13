@@ -1,0 +1,13 @@
+----------- Léeme.txt ----------
+
+Antes de realizar los ejercicios correspondientes a este tema, te sugiero que revises y
+compiles las clases Coleccionable.java y Jugador.java
+
+
+Ejercicio #1 --> Principal1.java
+>> javac Principal1.java			--> Compilar código
+>> java Principal1						--> Ejecutar programa
+
+Ejercicio #2 --> Principal2.java
+>> javac Principal2.java			--> Compilar código
+>> java Principal2						--> Ejecutar programa

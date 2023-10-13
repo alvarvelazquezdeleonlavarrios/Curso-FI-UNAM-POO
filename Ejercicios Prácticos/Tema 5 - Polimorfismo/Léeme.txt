@@ -1,0 +1,16 @@
+----------- Léeme.txt ----------
+Antes de realizar los ejercicios, haz lo siguiente:
+
+1.- Compila la clase Enemigo.java
+>> javac Enemigo.java
+
+2.- Compila la clase Goomba.java
+>> javac Goomba.java
+
+3.- Compila la clase Koopa.java
+>> javac Koopa.java
+
+
+Ejercicio #1 ---> Principal1.java
+Ejercicio #2 ---> Principal2.java
+Ejercicio #3 ---> Principal3.java

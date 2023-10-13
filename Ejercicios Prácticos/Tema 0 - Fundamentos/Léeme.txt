@@ -1,0 +1,9 @@
+----------- Léeme.txt ----------
+
+Ejercicio #1 --> Programa1.java
+>> javac Programa1.java			--> Compilar código
+>> java Programa1						--> Ejecutar programa
+
+Ejercicio #2 --> Programa2.java
+>> javac Programa2.java			--> Compilar código
+>> java Programa2						--> Ejecutar programa

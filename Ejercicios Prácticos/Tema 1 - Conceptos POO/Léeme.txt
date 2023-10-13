@@ -1,0 +1,13 @@
+----------- Léeme.txt ----------
+
+Ejercicio #1 --> Programa.java
+>> javac Programa.java			--> Compilar código
+>> java Programa						--> Ejecutar programa
+
+Ejercicio #2 --> Jugador.java
+>> javac Jugador.java			--> Compilar código
+>> java Jugador						--> Ejecutar programa
+
+Ejercicio #3 --> Arma.java
+>> javac Arma.java			--> Compilar código
+>> java Arma						--> Ejecutar programa

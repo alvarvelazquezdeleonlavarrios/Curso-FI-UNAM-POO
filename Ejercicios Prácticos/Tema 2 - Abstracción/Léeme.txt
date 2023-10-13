@@ -1,0 +1,19 @@
+----------- Léeme.txt ----------
+
+Para poder realizar este ejercicio, debes seguir los siguientes pasos:
+
+1.- En la Terminal, primero compila el código de la clase Jugador con el siguiente comando:
+>> javac Jugador.java
+
+2.- Luego compila el código del programa principal con el comando:
+>> javac Principal.java
+
+3.- La función "main" se encuentra dentro del código de Principal1.java, si intentas ejecutar
+el archivo Jugador.class te saldrá un error. Por lo tanto, deberás ejecutar el archivo
+Principal1.class con el comando:
+>> java Principal1
+
+
+Ejercicio #1 --> Principal1.java
+
+Ejercicio #2 --> Principal2.java
