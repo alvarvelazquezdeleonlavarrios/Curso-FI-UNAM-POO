@@ -13,6 +13,7 @@ public class Principal1 {
 		System.out.println("Vidas del jugador 1: " + jugador_1.vidas);
 		System.out.println("Velocidad de movimiento del jugador 1: " + jugador_1.velocidad_mov);
 		System.out.println("¿En el suelo jugador 1?: " + jugador_1.en_suelo);
+		System.out.println("Objeto en el inventario: " + jugador.item_fruta.nombre);
 		System.out.println("");
 		jugador_1.mover();
 		jugador_1.saltar();

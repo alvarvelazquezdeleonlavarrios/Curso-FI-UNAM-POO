@@ -53,30 +53,6 @@ class Principal2 {
 		Escribe todas las líneas de código necesarias para utilizar los nuevos objetos debajo de 
 		este comentario.
 		*/
-
-
-
-
-		/* -------- Ejercicio #2.3 ----------
-		 Luego de que hayas realizado el ejercicio anterior, ahora haz lo siguiente:
-
-		 1.- Al arma #1 (Rifle de Asalto) modifícale la cantidad de balas actuales que tiene con 
-		 la cantidad de balas en inventario que tiene el arma #2 (Pistola de Plasma). Es decir:
-
-		 		Balas en inventario del arma #2 ---> Balas actuales del arma #1
-
-
-		 2.- Al arma #2 (Pistola de Plasma) modifícale la cantidad de balas en inventario que tiene con 
-		 la cantidad de balas en inventario que tiene el arma #1 (Rifle de Asalto). Es decir:
-
-		 		Balas en inventario del arma #1 ---> Balas en inventario del arma #1
-
-
-		Imprime, debajo de este comentario, ambos atributos de cada arma para corroborar tu resultado.
-		*/
-
-
-
 	}
 
 }

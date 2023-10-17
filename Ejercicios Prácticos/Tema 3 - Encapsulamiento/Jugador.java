@@ -6,14 +6,7 @@ public class Jugador {
 	int vidas = 3;
 	float velocidad_mov = 2f;
 	boolean en_suelo = true;
-
-
-	/***
-	Atributos para los ejercicios de Principal2.java
-	(ignóralos para los ejercicios de Principal1.java)
-	***/
-	public Coleccionable item_fruta = new Coleccionable();
-	private Coleccionable item_moneda = new Coleccionable("Moneda");
+	Coleccionable item_fruta = new Coleccionable("Fruta Wumpa");
 
 
 	/*** Constructores ***/
@@ -34,19 +27,6 @@ public class Jugador {
 	void saltar(){
 		en_suelo = false;
 		System.out.println(nombre + " ha saltado.");
-	}
-
-
-	/***
-	Métodos para los ejercicios de Principal2.java
-	(ignóralos para los ejercicios de Principal1.java)
-	***/
-	public Coleccionable getItemFruta(){
-		return item_fruta;
-	}
-
-	public Coleccionable getItemMoneda(){
-		return item_moneda;
 	}
 
 }
