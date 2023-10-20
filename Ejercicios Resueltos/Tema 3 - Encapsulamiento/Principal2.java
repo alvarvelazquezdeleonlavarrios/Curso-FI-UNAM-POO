@@ -13,9 +13,32 @@ public class Principal2 {
 		System.out.println("Vidas del jugador 1: " + jugador_1.getVidas());
 		System.out.println("Velocidad de movimiento del jugador 1: " + jugador_1.getVelocidadMovimiento());
 		System.out.println("¿En el suelo jugador 1?: " + jugador_1.getEnSuelo());
-		System.out.println("Objeto en el inventario: " + jugador_1.item_fruta.getItemFruta().nombre);
+		System.out.println("Objeto en el inventario: " + jugador_1.getItemFruta().nombre);
+		System.out.println("");
+
+
+		// Modificación de atributos
+		jugador_1.setNombre("Luigi");
+		jugador_1.setVidas(5);
+		jugador_1.setVelocidadMovimiento(4.2f);
+		jugador_1.setEnSuelo(false);
+
+		Coleccionable moneda = new Coleccionable("Moneda");
+		//moneda.nombre = "Moneda";
+
+		jugador_1.setColeccionable(moneda);
+
+
+		// Imprime en pantalla los atributos del jugador 1 y lo hace realizar algunas acciones
+		System.out.println("\n--------- Propiedades Jugador 1 con Modificaciones --------------");
+		System.out.println("Nombre del jugador 1: " + jugador_1.getNombre());
+		System.out.println("Vidas del jugador 1: " + jugador_1.getVidas());
+		System.out.println("Velocidad de movimiento del jugador 1: " + jugador_1.getVelocidadMovimiento());
+		System.out.println("¿En el suelo jugador 1?: " + jugador_1.getEnSuelo());
+		System.out.println("Objeto en el inventario: " + jugador_1.getItemFruta().nombre);
 		System.out.println("");
 	}
+
 }
 
 /* -------- Ejercicio #2 ----------

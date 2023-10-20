@@ -51,4 +51,26 @@ public class Jugador {
 		return item_fruta;
 	}
 
+
+	/* Funciones Get para Jugador.java */
+	public void setNombre(String nombre){
+		this.nombre = nombre;
+	}
+
+	public void setVidas(int vidas){
+		this.vidas = vidas;
+	}
+
+	public void setVelocidadMovimiento(float velocidad){
+		velocidad_mov = velocidad;
+	}
+
+	public void setEnSuelo(boolean en_suelo){
+		this.en_suelo = en_suelo;
+	}
+
+	public void setColeccionable(Coleccionable item){
+		this.item_fruta = item;
+	}
+
 }
