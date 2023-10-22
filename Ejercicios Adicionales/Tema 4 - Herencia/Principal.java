@@ -42,8 +42,8 @@ public class Principal {
 			Ya vimos que los tres tipos de vehículos poseen algunos atributos que tienen
 			en común. También (y como podrás apreciar en la carpeta donde vienen estos ejercicios)
 			se encuentran las respectivas clases para vehículos terrestres, aéreos y marítimos.
-			Sin embargo, únicamente tienen declarados su identificador de clase (es decir, están
-			vacías).
+			Sin embargo, únicamente tienen declarados dos constructores: uno predeterminado, y otro
+			que llama al constructor de una clase "superior".
 
 			PREGUNTAS: 
 			1.- ¿Qué es lo que tienes que hacer para que los tres tipos de vehículos
@@ -51,9 +51,8 @@ public class Principal {
 
 			2.- ¿Será que debas programar una nueva clase?
 
-
-			Realiza las modificaciones que requieras para esta actividad, incluyendo a las tres 
-			clases de vehículos.
+			Realiza las modificaciones que requieras para esta actividad, incluyendo los atributos
+			únicos para cada una de las tres clases de vehículos.
 		*/
 
 
@@ -79,7 +78,8 @@ public class Principal {
 
 			Realiza lo siguiente:
 			1.- Genera dos nuevos objetos del tipo de vehículo terrestre con las características que
-			se pidieron previamente.
+			se pidieron previamente (procura inicializar cada tipo de vehículo desde su
+			constructor, o si no modifica directamente cada atributo por separado)
 
 			2.- Imprime los valores de cada uno de los vehículos terrestres.
 
@@ -112,7 +112,9 @@ public class Principal {
 
 			Realiza lo siguiente:
 			1.- Genera un nuevos objetos del tipo de vehículo aéreo y otro objeto del tipo
-			vehículo marítimo con las características que se pidieron previamente.
+			vehículo marítimo con las características que se pidieron previamente (procura 
+			inicializar cada tipo de vehículo desde su constructor, o si no modifica directamente 
+			cada atributo por separado)
 
 			2.- Imprime los valores de cada uno de los vehículos aéreo y marítimo.
 
