@@ -13,11 +13,11 @@ public class Koopa extends Enemigo {
 	}
 
 
-	/* ---- Función para el Ejercicio #3.2.1 y #3.2.2 ----
+	/* ---- Función para el Ejercicio #3.2.1 y #3.2.2 ----*/
 	@Override
 	void saltar() {
 		System.out.println("Koopa a saltado");
 	}
-	*/
+	
 	
 }

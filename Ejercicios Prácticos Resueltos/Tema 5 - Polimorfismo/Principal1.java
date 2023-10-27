@@ -23,7 +23,7 @@ public class Principal1 {
 		*/
 
 		// Goomba goomba = new Koopa();
-		/* Da error porque, si bien, tanto Goomba como Koopa son enemigos particulares,
+		/* Da error porque si bien tanto Goomba como Koopa son enemigos particulares,
 		un objeto de clase Koopa no es un tipo específico de la clase Goomba. */
 
 
@@ -38,7 +38,7 @@ public class Principal1 {
 
 		// Goomba mi_goomba = new Enemigo();
 		/* Da error porque no se está indicando que el objeto generado es uno de
-		tipo Goomba. Dicho de otra forma: un Enemigo NO es un tipo específico de Goomba*/
+		tipo Goomba. */
 
 
 
