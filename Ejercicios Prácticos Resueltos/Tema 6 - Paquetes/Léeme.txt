@@ -1,0 +1,34 @@
+----------- Léeme.txt ----------
+
+Ejercicio #1 <==> "Creando mi primer paquete"
+
+El paquete (archivos .class) que conforma todo este ejercicio #1 debe ser generado
+desde la misma carpeta en donde se encuentran los códigos fuente (.java)
+
+* Ejercicio 1.1 --> Generar los paquetes y sus ejecutables
+** Ejercicio 1.1.1 --> Jugador.java
+** Ejercicio 1.1.2 --> Enemigo.java
+** Ejercicio 1.1.3 --> Goomba.java
+** Ejercicio 1.1.4 --> Koopa.java
+** Ejercicio 1.1.5 --> ArmaLargoAlcance.java
+** Ejercicio 1.1.6 --> ArmaCortoAlcance.java
+
+* Ejercicio 1.2 --> Utilizar las clases y paquetes generados previamente en un código principal
+
+
+
+Ejercicio #2 <==> Encapsulamiento en Paquetes
+
+El paquete (archivos .class) que conforma todo este ejercicio #2 debe de ser 
+generado dentro de la carpeta "bin". Los códigos fuente se encuentran en la
+carpeta "src"
+
+** Ejercicio 2.1 --> ClasePadre.java
+** Ejercicio 2.2 --> ClaseHijaMismoPaquete.java
+** Ejercicio 2.3 --> ClaseNoHijaMismoPaquete.java
+** Ejercicio 2.4 --> ClaseHijaDiferentePaquete.java
+** Ejercicio 2.5 --> ClaseNoHijaDiferentePaquete.java
+
+¡Importante! Para que puedas compilar y ejecutar cada uno de estos códigos del ejercicio #2,
+deberás ubicarte desde Terminal dentro de la carpeta "src" (ahí se encuentran los códigos fuente
+a compilar)

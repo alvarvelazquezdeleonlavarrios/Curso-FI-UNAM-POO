@@ -17,6 +17,17 @@ public class ArmaCortoAlcance {
 		this.puntos_ataque = puntos_ataque;
 	}
 
+
+	/*** Métodos ***/
+
+	// Función programada para el ejercicio 1.2.4
+	public void imprimirAtributos() {
+		System.out.println("\n------------- Arma de Corto Alcance ---------------");
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Durabilidad: " + durabilidad);
+		System.out.println("Puntos de ataque: " + puntos_ataque);
+	}
+
 }
 
 
@@ -24,3 +35,5 @@ public class ArmaCortoAlcance {
 	Escribe, debajo de estos comentarios, el comando que utilizaste para generar 
 	el ejecutable de esta clase y el paquete en cuestión (será importante para después)
 */
+
+/** >> javac -cp . -d . ArmaCortoAlcance.java **/
