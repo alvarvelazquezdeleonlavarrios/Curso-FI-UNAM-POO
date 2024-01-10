@@ -36,9 +36,12 @@ public class Principal1 {
 		Vuelve a comentar la línea de código anterior.
 
 		Ahora, te darás cuenta que en ambas clases, Enemigo.java y Goomba.java, tienen un atributo
-		llamado "vida_maxima". Debajo de este comentario, escribe las líneas de código necesario 
+		llamado "vida_maxima". Debajo de este comentario, escribe las líneas de código necesarias 
 		para mostrar en pantalla tanto la vida máxima propia del Goomba como la vida máxima "genérica" 
 		(la de Enemigo.java).
+
+		¡Mucho Ojo!: deberás de programar una función en Goomba.java para que este ejercicio pueda
+		funcionar.
 
 		Compila y ejecuta de nuevo para cerciorarte de tu resultado.
 		*/

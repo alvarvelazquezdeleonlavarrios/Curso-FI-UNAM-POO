@@ -13,7 +13,7 @@ public class Principal {
 			2 platos de entrada, 2 platos fuertes, 1 postre, 1 bebida y 1 platillo genérico.
 
 			Cada uno de los platillos recibidos desde la orden cuentan con las siguientes
-			características:
+			características (tipo, nombre y precio):
 
 			- Plato de entrada #1 --> Sopa de fideos ($50)
 			- Plato de entrada #2 --> Crema de elote ($55)
@@ -26,18 +26,21 @@ public class Principal {
 			Realiza lo siguiente:
 			1.- Mediante el arreglo de platillos declarado debajo de este comentario, genera cada
 			uno de los tipos de platillos solicitados desde la orden y almacénalos en dicho arreglo.
-			Recomiendo para esta actividad que hagas uso de una sentencia "for" y dentro de este una
-			sentencia "switch-case" para poder generar cada tipo de platillo solicitado.
+			Por ejemplo:
+				orden_platillos[0] = new PlatoEntrada("Sopa de fideos", 50);
+				orden_platillos[1] = new PlatoEntrada("Crema de elote", 55);
+				etc.
 
 			Escribe las líneas de código correspondientes a esta actividad debajo de este comentario.
 			Compila para corroborar que no haya errores de programación.
 
-			¡OJO!: Para esta actividad todavía no se debe imprimir la información de cada platillo
+			¡NOTA!: Para esta actividad todavía no se debe imprimir la información de cada platillo
 			en pantalla.
 		*/
 
 		// Arreglo de referencias que apuntan a objetos de tipo Platillo y "derivados".
 		Platillo[] orden_platillos = new Platillo[7];
+
 
 
 
@@ -52,20 +55,21 @@ public class Principal {
 
 			Por lo tanto:
 
-			1.- ¿Qué es lo que debes hacer para que cada tipo de platillo imprima en pantalla, 
-			precisamente, el tipo de platillo que es? ¡MUCHO OJO! Esta actividad debes realizarla
-			de tal manera que siempre se llame a la función "imprimirInformacion()" de Platillo.java
+			1.- ¿Qué es lo que debes hacer para que cada clase de platillo imprima en pantalla, 
+			precisamente, el tipo de platillo que es?
+			¡MUCHO OJO! Para esta actividad, debes tener en cuenta que la función "imprimirInformacion()" 
+			realmente está siendo heredada hacia las demás clases.
 
-			2.- Ahora sí, imprime en pantalla la información correspondiente a cada platillo 
-			de la orden. Nuevamente, apoyate en el uso de una sentencia "for" para 
-			acceder a cada referencia del arreglo.
+			2.- Imprime en pantalla la información correspondiente a cada platillo de la orden. 
+			Puedes apoyate en el uso de una sentencia "for" para acceder a cada referencia del arreglo
+			de platillos declarado previamente.
 		*/
 
 
 
 
 		/* ---------- Ejercicio #3 ----------
-			Finalmente, también podrás apreciar que en esta misma clase Principal.java, hasta abajo
+			Finalmente, podrás apreciar que en esta misma clase Principal.java, hasta abajo
 			se encuentra una función estática llamada "llamarFuncionesEspeciales()" y recibe como
 			parámetro un arreglo de objetos de tipo Platillo.
 
@@ -74,7 +78,8 @@ public class Principal {
 			Realiza lo siguiente:
 			1.- Agrega el código correspondiente en la función "llamarFuncionesEspeciales()" de este
 			código, de tal manera que, dependiendo el tipo de platillo que se esté analizando, llame
-			a su función propia. En ese caso, ¿qué es lo que debes hacer?
+			a su función propia. En ese caso, ¿qué es lo que debes hacer para evitar posibles
+			conflictos en el "tipado" entre clases?
 		*/
 
 		llamarFuncionesPropias(orden_platillos);

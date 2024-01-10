@@ -58,10 +58,11 @@ public class Principal {
 
 			Por lo tanto:
 			1.- Escribe debajo de este comentario las líneas de código para imprimir en pantalla
-			cada uno de los atributos que posee el Alumno.
+			cada uno de los atributos, por separado, que posee el Alumno.
 
 			¡MUCHO OJO!: Ten en cuenta que programaste los atributos con un nivel de seguridad de
-			tal forma que no se puedan consultar ni modificar mediante referencia. Por lo tanto,
+			tal forma que no se puedan consultar ni modificar mediante referencia desde cualquier
+			clase externa como la es este código principal. Por lo tanto,
 			¿qué es lo que debes hacer para consultar los atributos del alumno?
 
 			2.- Haz las modificaciones correspondientes en la clase Alumno.java
@@ -85,7 +86,8 @@ public class Principal {
 			del alumno encuestión.
 
 			¡MUCHO OJO!: Nuevamente, programaste los atributos con un nivel de seguridad de
-			tal forma que no se puedan consultar ni modificar mediante referencia. Por lo tanto,
+			tal forma que no se puedan consultar ni modificar mediante referencia desde este
+			código principal. Por lo tanto,
 			¿qué es lo que debes hacer para modificar dicho atributo del alumno?
 
 			2.- Haz las modificaciones correspondientes en la clase Alumno.java

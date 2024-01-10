@@ -6,8 +6,8 @@ public class Principal {
 		/* ------------ Ejercicio #1 ------------------
 			Digamos que ahora nos encontramos trabajando en la Secretaría de Comunicaciones y
 			Transportes (SCT) del Gobierno de México. Mandos superiores nos indican que en
-			otro sistema informático quieren que implementemos un catálogo de vehículos utilizados
-			por el gobierno para facilitar todo tipo de labores. 
+			otro sistema informático auxiliar quieren que implementemos un catálogo de vehículos 
+			utilizados por el gobierno para facilitar todo tipo de labores.
 
 			En dicho análisis, se nos pide que involucremos tres tipos de vehículos:
 			- Vehículo terrestre
@@ -45,11 +45,10 @@ public class Principal {
 			Sin embargo, únicamente tienen declarados dos constructores: uno predeterminado, y otro
 			que llama al constructor de una clase "superior".
 
-			PREGUNTAS: 
+			PREGUNTAS:
 			1.- ¿Qué es lo que tienes que hacer para que los tres tipos de vehículos
-			compartan los atributos que tienen en común, sin repetir código? 
-
-			2.- ¿Será que debas programar una nueva clase?
+			compartan los atributos que tienen en común, sin repetir código?
+			¿Será que debas programar una nueva clase?
 
 			Realiza las modificaciones que requieras para esta actividad, incluyendo los atributos
 			únicos para cada una de las tres clases de vehículos.
@@ -61,8 +60,7 @@ public class Principal {
 			En caso de que hayas logrado realizar el ejercicio anterior, ahora analiza el siguiente
 			escenario:
 
-			Ahora nos piden que generemos dos nuevos vehículos terrestres con las siguientes
-			características:
+			Nos piden que generemos dos nuevos vehículos terrestres con las siguientes características:
 
 			---- Vehículo Terrestre #1 ----
 			- Nombre --> Tren de Carga
@@ -111,7 +109,7 @@ public class Principal {
 
 
 			Realiza lo siguiente:
-			1.- Genera un nuevos objetos del tipo de vehículo aéreo y otro objeto del tipo
+			1.- Genera un nuevo objeto del tipo de vehículo aéreo y otro objeto del tipo
 			vehículo marítimo con las características que se pidieron previamente (procura 
 			inicializar cada tipo de vehículo desde su constructor, o si no modifica directamente 
 			cada atributo por separado)

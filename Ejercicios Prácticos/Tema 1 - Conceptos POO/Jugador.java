@@ -35,7 +35,7 @@ class Jugador{
 		System.out.println("Contenido de jugador_2: " + jugador_2);
 
 
-		/* Pregunta #3.- Pregunta capciosa... si hay algún objeto de tipo Jugaor que ya no 
+		/* Pregunta #3.- Pregunta capciosa... si hay algún objeto de tipo Jugador que ya no 
 		esté contenido en alguna de las dos referencias, ¿dicho objeto de tipo Jugador 
 		seguirá almacenado en la memoria de la computadora?
 		*/

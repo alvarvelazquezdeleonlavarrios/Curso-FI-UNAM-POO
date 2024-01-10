@@ -4,7 +4,7 @@ public class Principal2 {
 	// Función principal del programa
 	public static void main(String[] args) {
 
-		// Crea un nuvo objeto de tipo Jugador
+		// Crea un nuevo objeto de tipo Jugador
 		Jugador jugador_1 = new Jugador("Mario");
 
 		// Imprime en pantalla los atributos del jugador 1 y lo hace realizar algunas acciones

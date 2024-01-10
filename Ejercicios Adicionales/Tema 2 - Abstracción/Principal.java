@@ -13,8 +13,8 @@ class Principal {
 
 			Luego de conocer esto, se nos pide que en la agencia se llegan a vender coches con algunas
 			características en común:
-			- Marca o fabricante
-			- Nombre o modelo
+			- Marca (fabricante)
+			- Nombre (modelo)
 			- Peso en toneladas (incluye números decimales)
 			- Color (nombre del color)
 			- Número total de puertas
@@ -44,11 +44,10 @@ class Principal {
 			Entonces, ahora debes realizar lo siguiente:
 
 			1.- De igual forma, en la clase Coche.java, programa los métodos correspondientes
-			de lo que puede realizar un coche. Compila para verificar que tu codificación sea
-			la adecuada.
+			de lo que puede realizar un coche. En cada método que programes deberás imprimir 
+			en pantalla la acción que se estaría realizando. Ej. "El coche se ha encendido".
 
-			2.- En cada método que programes deberás imprimir en pantalla la acción que se
-			estaría realizando.
+			Compila para verificar que tu codificación sea la adecuada.
 		*/
 
 
@@ -56,32 +55,33 @@ class Principal {
 		/* ---------- Ejercicio #3 -----------
 			Luego de que tengas programados los atributos y métodos de la clase Coche.java, ahora
 			la agencia viene a decirnos algo importante que se les olvidó: cada vez que un nuevo
-			coche llega para ponerlo a la venta, se nos dice que debe ser dado de alta en el sistema
-			de tal manera que SUS ATRIBUTOS YA ESTÉN INICIALIZADOS.
+			coche llega para ser puesto en venta, se nos dice que debe ser dado de alta en el sistema
+			de tal manera que SUS ATRIBUTOS YA ESTÉN INICIALIZADOS cuando vaya a ser registrado desde la
+			computadora.
 
 			Entonces:
-			1.- Programa en la clase Coche.java sus constructores necesarios cada vez que se desee 
-			crear un nuevo objeto de tipo Coche con algunos o todos sus atributos necesarios.
+			1.- Programa en la clase Coche.java el o los constructores necesarios para que se puedan crear
+			nuevos objetos de tipo Coche con algunos o todos sus atributos inicializados.
 
-			2.- Ten en cuenta que debes codificar también el constructor por defecto de la clase, en el
+			2.- Ten en cuenta que debes programar también el constructor por defecto de la clase, en
 			dado caso de que no sea necesario inicializar los atributos del nuevo objeto.
 		*/
 
 
 
 		/* ---------- Ejercicio #4 -----------
-			Finalmente (y si estuviste analizando y te diste cuenta) haz construido la "plantilla" o
+			Si estuviste analizando el código (y te diste cuenta), ya haz construido la "plantilla" o
 			"molde" para generar nuevos objetos de tipo Coche.
 
-			Por último, la agencia nos informa de último minuto que acaba de llegar un nuevo tipo
+			Después, la agencia nos informa de último minuto que acaba de llegar un nuevo tipo
 			de coche que planean ponerlo a la venta para el público. Dicho coche tiene las siguientes
 			características:
-				- Marca o fabricante --> Nissan
-				- Nombre o modelo --> Versa
+				- Marca (fabricante) --> Nissan
+				- Nombre (modelo) --> Versa
 				- Peso en toneladas --> 1.14
 				- Color --> Rojo
 				- Número total de puertas = 4
-				- ¿Tiene sistema de aire acondicionado? --> Si tiene
+				- ¿Tiene sistema de aire acondicionado? --> Sí tiene
 
 
 			Por lo tanto, realiza lo siguiente:
@@ -91,7 +91,7 @@ class Principal {
 
 			2.- Imprime en pantalla el valor de los atributos de dicho coche que creaste.
 
-			Programa las líneas de código correspondientes debajo de este comentario
+			Escribe las líneas de código correspondientes debajo de este comentario.
 		*/
 
 
@@ -101,7 +101,7 @@ class Principal {
 			Adicionalmente, al nuevo coche que llegó a la agencia, se nos pide que le realicemos
 			unas pruebas de control de calidad. Entonces:
 
-			1.- Para el mismo objeto que creaste previamente, haz que ejecute las acciones
+			1.- Para el mismo objeto que creaste previamente, haz que ejecute todas las acciones
 			que puede realizar (encender, avanzar, frenar, etc.)
 		*/
 
