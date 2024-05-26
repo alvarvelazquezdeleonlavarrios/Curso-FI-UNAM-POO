@@ -7,7 +7,3 @@ Ejercicio #1 --> Programa.java
 Ejercicio #2 --> Jugador.java
 >> javac Jugador.java			--> Compilar código
 >> java Jugador						--> Ejecutar programa
-
-Ejercicio #3 --> Arma.java
->> javac Arma.java			--> Compilar código
->> java Arma						--> Ejecutar programa

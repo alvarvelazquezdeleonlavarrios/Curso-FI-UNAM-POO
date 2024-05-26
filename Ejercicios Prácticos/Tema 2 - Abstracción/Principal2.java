@@ -53,6 +53,21 @@ class Principal2 {
 		Escribe todas las líneas de código necesarias para utilizar los nuevos objetos debajo de 
 		este comentario.
 		*/
+
+
+
+
+		/* -------- Ejercicio #2.3 ----------
+		Después de modificar los atributos de ambas armas, ahora realizarás un ejercicio el cual
+		consiste en que interactúen entre sí alguno de sus atributos.
+
+		En este caso, intentarás hacer que, en el momento actual, la cantidad de balas del arma #1
+		sea igual a la cantidad de balas del arma #2. Imprime el valor para ambas armas.
+
+		Escribe las líneas de código correspondientes debajo de este comentario.
+		*/
+
+		
 	}
 
 }

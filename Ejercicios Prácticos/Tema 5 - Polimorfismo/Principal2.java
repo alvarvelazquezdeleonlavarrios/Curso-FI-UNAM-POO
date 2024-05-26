@@ -26,7 +26,7 @@ public class Principal2 {
 
 
 
-		/* -------- Ejercicio #2.1.2 ----------
+		/* -------- Ejercicio #2.1.3 ----------
 		Vuelve a comentar las tres líneas de código anteriores
 
 		Ahora descomenta estas tres líneas de código, compila y ejecuta. Responde: ¿dará error o no? ¿por qué?
